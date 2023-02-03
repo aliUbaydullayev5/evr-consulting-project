@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import {useRouter} from "next/router";
 
 export default function Home() {
-  return (
-    <>
-      <h1>Testing</h1>
-    </>
-  )
+
+  const router = useRouter()
+
+  useEffect(()=> {
+    router.push('/home')
+  }, [])
+
 }
