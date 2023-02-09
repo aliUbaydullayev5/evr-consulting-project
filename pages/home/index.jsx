@@ -1,13 +1,11 @@
 import React from 'react'
-import Container from "@/pages/home/style";
 import Root from "@/root";
+import HomeModule from "@/modules/homeModule";
 
 const Home = () => {
     return(
         <Root>
-            <Container>
-
-            </Container>
+            <HomeModule />
         </Root>
     )
 }
