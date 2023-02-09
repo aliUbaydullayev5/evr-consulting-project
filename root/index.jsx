@@ -1,9 +1,14 @@
 import React from 'react'
+import Navbar from "@/components/navbar";
+import Container from "@/root/style";
 
 const Root = ({children}) => {
     return(
         <>
-            {children}
+            <Navbar />
+            <Container>
+                {children}
+            </Container>
         </>
     )
 }

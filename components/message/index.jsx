@@ -8,9 +8,7 @@ import MessageClose from '../../assets/icon/messageClose.svg'
 import {resetAllData} from "@/redux/slice/message";
 
 const Message = () => {
-
     const {hiddenBool, message, time, type} = useSelector((state)=> state.messageSlice)
-
     const dispatch = useDispatch()
 
     useEffect(()=> {

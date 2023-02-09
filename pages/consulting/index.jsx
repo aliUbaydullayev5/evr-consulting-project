@@ -1,10 +1,13 @@
 import React from 'react'
 import Root from "@/root";
+import HomeBackImageUI from "@/UI/HomeBackImageUI";
+import HomeSubTextAndImgUi from "@/UI/homeSubTextAndImgUi";
 
 const Consulting = () => {
     return(
         <Root>
-            <h1>Consulting</h1>
+            <HomeBackImageUI />
+            <HomeSubTextAndImgUi />
         </Root>
     )
 }
