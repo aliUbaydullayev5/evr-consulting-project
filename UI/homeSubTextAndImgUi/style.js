@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Container = styled.div`
-  margin: 40px 0 0 0;
+  margin: 60px 0 0 0;
   padding: 0 var(--mainPadding);
   .title{
     font-weight: 400;
@@ -11,6 +11,7 @@ const Container = styled.div`
     text-align: left;
     max-width: 60%;
   }
+  border: 1px solid red;
 `
 
 export default Container
