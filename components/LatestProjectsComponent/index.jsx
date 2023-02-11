@@ -41,7 +41,7 @@ const LatestProjectsComponent = () => {
             <Container.MenuSection>
                 {
                     mockData.map(({id, title, img, price, day, other})=> (
-                            <div>
+                            <div key={id}>
                                 <ProductModal title={title} img={img} price={price} day={day} other={other} />
                             </div>
                         )
