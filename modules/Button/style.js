@@ -13,11 +13,9 @@ const Container = styled.button`
   padding: ${({padding})=> padding ? padding : '5px 10px'};
   font-size: ${({fontSize})=> fontSize ? fontSize : '20px'};
   margin: ${({margin})=> margin ? margin : '0'};
-
   :active{
     transform: scale(1.1);
   }
-  
 `
 
 export default Container

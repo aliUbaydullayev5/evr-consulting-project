@@ -1,13 +1,9 @@
 import Container from './style'
 import {useRouter} from "next/router";
+import {useEffect, useState} from "react";
 
 const Navbar = () => {
-
     const router = useRouter()
-
-    console.log(router.pathname.split('/').slice(1, 2).join(''))
-
-
     const activeStyle = {
         color: '#5c5d50',
         borderBottom: '2px solid #5c5d50',
@@ -15,8 +11,22 @@ const Navbar = () => {
         fontSize: '17px'
     }
 
+    const [scrollPosition, setScrollPosition] = useState(0);
+    const handleScroll = () => {
+        const position = window.pageYOffset;
+        setScrollPosition(position);
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll, { passive: true });
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return(
-        <Container>
+        <Container scrollPosition={scrollPosition > 400 ? true : false} >
             <div
                 className='title nocopy'
                 onClick={()=> router.push('/consulting')}

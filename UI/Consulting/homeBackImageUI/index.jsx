@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from "./style";
-import img1 from './../../assets/png/img3.png'
+import img1 from '../../../assets/png/img3.png'
 
 const HomeBackImageUI = () => {
 
