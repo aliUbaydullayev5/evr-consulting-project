@@ -1,4 +1,4 @@
-import Container from './style'
+import Container, {Main} from './style'
 import Image from "next/image";
 import img1 from '../../../assets/png/img8.png'
 import img2 from '../../../assets/png/img9.png'
@@ -6,12 +6,12 @@ import Button from "@/modules/Button";
 import React from "react";
 const TwoImgCenterTextUI = () => {
     return(
-        <>
+        <Main>
             <Container>
                 <div data-aos="fade-right">
                     <Image src={img1} alt={'img'} className={'img'} />
                 </div>
-                <div>
+                <div data-aos="fade-left">
                     <p className="title">
                         Artworks Courses Gift Card Homewear Tableware
                     </p>
@@ -25,7 +25,7 @@ const TwoImgCenterTextUI = () => {
                     <Button margin={'40px 0 0 0'}>Registratsiya</Button>
                 </div>
             </Container.SubArea>
-        </>
+        </Main>
     )
 }
 

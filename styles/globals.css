@@ -20,3 +20,15 @@ body{
 :root{
   --mainPadding: 60px;
 }
+
+hr{
+  height: 1px;
+  color: #333;
+  background: #333;
+  border: 0;
+}
+@media only screen and (max-width: 800px) {
+  :root{
+    --mainPadding: 20px;
+  }
+}

@@ -21,6 +21,19 @@ const Container = styled.div`
     max-width: 70%;
     margin: 0 60px;
   }
+  @media only screen and (max-width: 800px) {
+    .title{
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 30px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 10px #000;
+      text-align: center;
+      max-width: 70%;
+      margin: 0 60px;
+    }
+  }
 `
 
 export default Container

@@ -16,9 +16,9 @@ const HomeSubTextAndImgUi = () => {
                 <Button margin={'40px 0 0 0'}>Registratsiya</Button>
             </div>
             <Container.ImgSection>
-                <Image src={img5} alt={'img do not important'} className={'img1'} />
-                <Image src={img6} alt={'img do not important'} className={'img2'} />
-                <Image src={img7} alt={'img do not important'} className={'img3'} />
+                <Image src={img5} alt={'img do not important'} className={'img1'} data-aos="fade-left" />
+                <Image src={img6} alt={'img do not important'} className={'img2'} data-aos="fade-left" />
+                <Image src={img7} alt={'img do not important'} className={'img3'} data-aos="fade-right" />
             </Container.ImgSection>
             <Container.SubTitleSection>
                 <div data-aos="fade-right">

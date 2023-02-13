@@ -3,7 +3,6 @@ import styled from 'styled-components'
 const Container = styled.button`
   font-weight: 400;
   line-height: 25px;
-  text-transform: lowercase;
   border-radius: 250px;
   cursor: pointer;
   transition: .2s;

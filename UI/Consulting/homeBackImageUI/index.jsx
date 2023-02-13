@@ -10,7 +10,7 @@ const HomeBackImageUI = () => {
     
     return(
         <Container style={styling}>
-            <div className="title">
+            <div className="title nocopy">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, praesentium.
             </div>
         </Container>

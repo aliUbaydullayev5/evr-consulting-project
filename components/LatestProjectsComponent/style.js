@@ -33,7 +33,16 @@ Container.MenuSection = styled.div`
     display: flex;
     justify-content: center;
   }
-  
+  @media only screen and (max-width: 800px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 24px;
+    >div{
+      display: flex;
+      justify-content: center;
+    }
+  }
 `
 
 export default Container

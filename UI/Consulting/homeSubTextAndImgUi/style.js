@@ -20,6 +20,27 @@ const Container = styled.div`
     max-width: 300px;
     margin: 50px auto;
   }
+  @media only screen and (max-width: 800px) {
+    margin: 60px 0 0 0;
+    padding: 0 var(--mainPadding);
+    .title{
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 50px;
+      color: #000000;
+      text-align: left;
+      max-width: 90%;
+    }
+    .centerText{
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 25px;
+      color: #000000;
+      text-align: center;
+      max-width: 300px;
+      margin: 50px auto;
+    }
+  }
 `
 
 Container.ImgSection = styled.div`
@@ -42,6 +63,42 @@ Container.ImgSection = styled.div`
     left: 100px;
     top: 300px;
     border-radius: 5px;
+  }
+  @media only screen and (max-width: 800px) {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    padding: 30px 0 200px 0;
+    .img1{
+      position: absolute;
+      left: 0;
+      border-radius: 5px;
+      width: 70%;
+      height: auto;
+      z-index: -1;
+      max-width: 370px;
+    }
+    .img2{
+      position: absolute;
+      border-radius: 5px;
+      max-width: 400px;
+      right: 0;
+      top: 30px;
+      width: 75%;
+      z-index: -1;
+      height: auto;
+      
+    }
+    .img3{
+      width: 90%;
+      max-width: 450px;
+      height: auto;
+      position: absolute;
+      left: 0;
+      top: 300px;
+      z-index: -1;
+      border-radius: 5px;
+    }
   }
 `
 
