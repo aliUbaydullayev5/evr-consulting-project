@@ -22,6 +22,7 @@ const Container = styled.div`
     margin: 0 60px;
   }
   @media only screen and (max-width: 800px) {
+    width: 100%;
     .title{
       font-weight: 400;
       font-size: 28px;

@@ -21,6 +21,7 @@ const Container = styled.div`
     margin: 50px auto;
   }
   @media only screen and (max-width: 800px) {
+    width: 100%;
     margin: 60px 0 0 0;
     padding: 0 var(--mainPadding);
     .title{

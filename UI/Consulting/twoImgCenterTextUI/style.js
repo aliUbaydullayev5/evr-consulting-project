@@ -34,6 +34,7 @@ const Container = styled.div`
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    padding: 0;
     .title{
       font-weight: 400;
       font-size: 55px;
@@ -50,6 +51,7 @@ const Container = styled.div`
     }
     .img{
       border-radius: 5px;
+      max-width: 350px;
     }
   }
 `
