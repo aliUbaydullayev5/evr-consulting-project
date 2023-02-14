@@ -1,6 +1,6 @@
 import '@/styles/globals.css'
 import {Provider} from "react-redux";
-import Message from "@/components/message";
+import Message from "@/components/Message";
 import store from "@/redux/store";
 import 'aos/dist/aos.css';
 import {useEffect} from "react";

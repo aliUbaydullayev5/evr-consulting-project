@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react'
 import Container from './style'
-import img1 from '../../assets/png/img10.png'
-import img2 from '../../assets/png/img11.png'
-import img3 from '../../assets/png/img12.png'
+import img1 from '../../../assets/png/img10.png'
+import img2 from '../../../assets/png/img11.png'
+import img3 from '../../../assets/png/img12.png'
 import ProductModal from "@/modules/ProductModal";
 
 const LatestProjectsComponent = () => {

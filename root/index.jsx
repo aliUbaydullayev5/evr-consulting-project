@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/Navbar";
 import Container from "@/root/style";
 
 const Root = ({children}) => {

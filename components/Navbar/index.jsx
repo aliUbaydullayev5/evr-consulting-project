@@ -8,8 +8,8 @@ import Close from '../../assets/icon/close.svg'
 const Navbar = () => {
     const router = useRouter()
     const activeStyle = {
-        color: '#5c5d50',
-        borderBottom: '2px solid #5c5d50',
+        color: 'rgb(158, 114, 44)',
+        borderBottom: '2px solid rgb(158, 114, 44)',
         fontWeight: '600',
         fontSize: '17px'
     }

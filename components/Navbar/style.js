@@ -9,7 +9,9 @@ const Container = styled.div`
   height: 90px;
   position: fixed;
   transition: 1s;
-  background: ${({scrollPosition})=> scrollPosition ? 'rgba(164, 164, 164, 0.94)' : 'rgba(255, 255, 255, 0.53)'};
+  // background: ${({scrollPosition})=> scrollPosition ? 'rgba(164, 164, 164, 0.94)' : 'rgba(255, 255, 255, 0.53)'};
+  background: ${({scrollPosition})=> scrollPosition ? 'rgba(56, 56, 56, 0.99)' : 'rgba(56, 56, 56, 0.53)'};
+  border-bottom: 4px solid ${({scrollPosition})=> scrollPosition ? 'orange' : 'rgba(0, 0, 0, 0)'};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,7 +78,6 @@ const MenuSection = styled.div`
     color: #fff;
     font-weight: 500;
   }
-  
   .closeButton{
     position: absolute;
     top: 20px;

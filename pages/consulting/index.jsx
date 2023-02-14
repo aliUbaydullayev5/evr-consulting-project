@@ -1,9 +1,9 @@
 import React from 'react'
 import Root from "@/root";
-import HomeBackImageUI from "@/UI/Consulting/homeBackImageUI";
-import HomeSubTextAndImgUi from "@/UI/Consulting/homeSubTextAndImgUi";
-import TwoImgCenterTextUI from "@/UI/Consulting/twoImgCenterTextUI";
-import LatestProjectsComponent from "@/components/LatestProjectsComponent";
+import HomeBackImageUI from "@/UI/consulting/HomeBackImageUI";
+import HomeSubTextAndImgUi from "@/UI/consulting/HomeSubTextAndImgUi";
+import TwoImgCenterTextUI from "@/UI/consulting/TwoImgCenterTextUI";
+import LatestProjectsComponent from "@/components/consulting/LatestProjectsComponent";
 
 const Consulting = () => {
     return(
